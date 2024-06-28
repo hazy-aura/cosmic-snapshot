@@ -1,8 +1,12 @@
-
+import Main from "../components/Main";
+import Footer from "../components/Footer";
+import BottomBar from "@/components/BottomBar";
 export default function Home() {
   return (
-    <div>
-      <h1>Apod</h1>
+    <div className="">
+      <Main />
+      <BottomBar/>
+      <Footer />
     </div>
     
       );
